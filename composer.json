@@ -1,22 +1,13 @@
 {
-    "name": "ct/calculator",
+    "name": "calmtech/calculator",
     "description": "testing",
+    "type": "library",
+    "license": "mit",
     "authors": [
         {
             "name": "nayhtetwin",
             "email": "nayhtet.saw@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "CalmTech\\Calculator\\":"src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-  
     "require": {}
 }
