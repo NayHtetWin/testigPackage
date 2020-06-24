@@ -20,5 +20,12 @@
             "Tests\\": "tests/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CalmTech\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
     "require": {}
 }
