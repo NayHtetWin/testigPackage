@@ -1,0 +1,22 @@
+{
+    "name": "ct/calculator",
+    "description": "testing",
+    "authors": [
+        {
+            "name": "nayhtetwin",
+            "email": "nayhtet.saw@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CalmTech\\Calculator\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+  
+    "require": {}
+}
